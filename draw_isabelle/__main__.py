@@ -1,7 +1,9 @@
+from argparse import ArgumentParser
+
 from draw_isabelle.parsing import parse_graph
 
+
 def run_from_cli():
-    from argparse import ArgumentParser
 
     parser = ArgumentParser()
     parser.add_argument(
@@ -9,6 +11,7 @@ def run_from_cli():
     )
     args = parser.parse_args()
     print(parse_graph(args.tree_syntax))
+
 
 if __name__ == "__main__":
     run_from_cli()

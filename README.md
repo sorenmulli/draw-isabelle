@@ -6,8 +6,8 @@ Quick visualization tool for nested Isabelle trees which are defined by the angl
 ## Install and usage
 
 ```console
-$ pip install draw-isabelle # or alternatively, clone repo and run make
-$ draw-isabelle '⟨⟨⟨⟨⟩, a, ⟨⟩⟩, a, ⟨⟨⟩, a, ⟨⟩⟩⟩, a, ⟨⟨⟩, a, ⟨⟩⟩⟩' # or alternatively, call with python -m draw_isabelle
+$ pip install draw-isabelle
+$ draw-isabelle '⟨⟨⟨⟨⟩, a, ⟨⟩⟩, a, ⟨⟨⟩, a, ⟨⟩⟩⟩, a, ⟨⟨⟩, a, ⟨⟩⟩⟩'
 ```
 
 will output
@@ -20,6 +20,7 @@ will output
  /  \      /  \
 ⟨⟩   ⟨⟩   ⟨⟩   ⟨⟩
 ```
+
 
 ## Contributing
 Please open PR's with fixes and code improvements; could be cool to also support the Node/Leaf syntax or maybe other useful structures.
