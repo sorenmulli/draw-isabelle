@@ -1,12 +1,14 @@
-# draw-isabelle-tree
+# draw-isabelle
 
 Quick visualization tool for nested Isabelle trees which are defined by the angle brace Isabelle syntax `⟨l, a, r⟩`.
 
 
 ## Install and usage
 
-```$ pip install draw_isabelle # or alternatively, clone repo and run `make````
-```$ draw-isabelle '⟨⟨⟨⟨⟩, a, ⟨⟩⟩, a, ⟨⟨⟩, a, ⟨⟩⟩⟩, a, ⟨⟨⟩, a, ⟨⟩⟩⟩' # or alternatively, call with python -m draw_isabelle```
+```console
+$ pip install draw-isabelle # or alternatively, clone repo and run make
+$ draw-isabelle '⟨⟨⟨⟨⟩, a, ⟨⟩⟩, a, ⟨⟨⟩, a, ⟨⟩⟩⟩, a, ⟨⟨⟩, a, ⟨⟩⟩⟩' # or alternatively, call with python -m draw_isabelle
+```
 
 will output
 ```
